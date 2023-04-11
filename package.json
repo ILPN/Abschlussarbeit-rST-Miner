@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href /ilovepetrinets/theses/lueg/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "github-actions-test": "ng test --karma-config github-actions.karma.conf.js --watch=false",
